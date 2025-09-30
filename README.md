@@ -4,6 +4,6 @@ A compiler for a subset of C programming language is made from scratch using fle
 
 This repository contains the following files:
 
-- `symbolTable.cpp`– Implements the construction and management of the symbol table.
-- `lexical_analysis.cpp`– Performs lexical analysis of the input source code.
+- `symbol_table.cpp`– Implements the construction and management of the symbol table.
+- `lexical_analysis.l`– Performs lexical analysis of the input source code.
 - `syntax_semantic_code_gen.y`– Performs syntax and semantic analysis, and generates intermediate code targeting 8086 Assembly.
